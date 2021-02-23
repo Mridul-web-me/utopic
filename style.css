@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-style: 'Poppins' sans-serif;
+}
+
+
+/*HEADER*/
+.navbar .navbar-brand{
+    color:skyblue;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navbar .navbar-brand span{
+    color: #894aa3;
+}
+.navbar .navbar-brand:hover{
+    color: #999999;
+}
+.navbar.navbar-expand-md {
+    border-top: 10px solid #894aa3;
+}
+div#collapsibleNavbar {
+    flex-flow: column;
+    margin-left: auto;
+}
+
+.navbar.navbar-expand-sm {
+    background: fff;
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+    border-radius: 0px 0px 10px 10px;
+    margin-left: auto;
+    margin-top: -8px;
+    background: #ebebea;
+    height: 30px;
+}
+.navbar form input {
+    border: none;
+    outline: none;
+    background: #ebebea;
+   /* height: 20px;*/
+}
+
+
+.navbar button.btn {
+    color: #894aa3;
+    background: #fff;
+    border-radius: 50%;
+    font-size: 10px;
+}
+.navbar .btn2{
+    background: #e6e6e6;
+    color:  #894aa3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: none;
+}
+a#dropdownMenuLink {
+    color: #666666;
+    font-weight: 500;
+    padding:7px 0;
+    margin-left: 3px;
+    font-size: 14px;
+}
+.navbar-nav{
+    padding: 20px 0;
+}
+.navbar-nav li a{
+    color: #666666;
+    font-weight: 500;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+
+/*Slide Show*/
+.sliderText{
+    background: #ebebea;
+    text-align: center;
+    padding: 20px 0;
+}
+.sliderText h2{
+    font-size: 38px;
+}
+.carousel-item img{
+    height: 500px;
+    width: 100%;
+}
+
+
+/*Testimonilas*/
+.testimonials{
+    padding: 40px 0;
+}
+.testimonials-items .logo{
+    float: left;
+    display: flex;
+}
+.content{
+    margin: 0 50px;
+}
+
+
+
+/*Service*/
+.service{
+    background: #ebebea;
+}
+.card-group{
+   padding: 50px 20px; 
+}
+.card {
+    margin: 0px 25px;
+    background: #fff;
+}
+
+img.card-img-top {
+    padding: 15px;
+}
+
+.card {
+    background: #FFF;
+}
+
+.card-body {
+    text-align: center;
+}
+.card-body h5{
+    color: #894aa3;
+}
+
+
+
+
+
+/*Footer*/
+.footer-item{
+    padding: 0px 40px;
+}
+.footer-item h5 {
+ color: #666666;
+ padding: 20px 0;
+}
+.footer-item p
+{
+    color: #999999;
+}
+.footer-item a{
+    border-bottom: 1px solid ;
+    border-width: 0px;
+    color: #999999;
+    text-decoration: none;
+}
+.footer-item hr{
+    margin-top: 0px;
+        margin-bottom: 1rem;
+}
+
+.footer-item a:nth-child(3) {
+    float: right;
+    color: #894aa3;
+}
+
+.footer-item form input{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #e6e6e6;
+    color: #fff;
+    resize: none;
+    color: #999999;
+    width: 100%;
+    border-radius: 10px;
+}
+.footer-item form button{
+    background: #e6e6e6;
+    color:  #894aa3;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.form-group{
+    margin-top: 10px 10px;
+}
+
+.footer-bottom{
+    background: #444444;
+    color: #fff;
+}
+
+.footer-bottom .right p{
+    text-align: right;
+    margin: 10px;
+}
+.footer-bottom .left p{
+    margin: 10px;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 769px) {
+    /*Navbar*/
+    .navbar button.btn{
+        display: none;
+    }
+    .navbar .btn2{
+        display: inherit;
+        margin:  5px -15px;
+        align-self: flex-start;
+    }
+    .navbar.navbar-expand-sm {
+        margin: 15px 0;
+        width: 200px;
+        display: flex;
+        flex-flow: inherit;
+        border-radius: 0px 0px 5px 5px;
+    }
+    .navbar form input {
+        
+        width: auto;
+    }
+    /*footer*/
+    .footer-bottom .right p{
+        text-align: center;
+    }
+    .footer-bottom .left p{
+        text-align: center;
+  }
+}
+
